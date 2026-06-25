@@ -8,7 +8,6 @@ type PagesConfig = {
       title: string;
       description: string;
     };
-    // featuredDescription: string;
   };
 };
 
@@ -18,68 +17,69 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Rushil Agarwal's portfolio website.",
     },
   },
   skills: {
     title: "Skills",
-    description: "Key skills that define my professional identity.",
+    description: "Tools I use across AI, data, and software projects.",
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Rushil Agarwal's key technical skills across AI, data, and software engineering.",
     },
   },
   projects: {
     title: "Projects",
-    description: "Showcasing impactful projects and technical achievements.",
+    description:
+      "Machine learning, quantitative finance, analytics, and systems projects.",
     metadata: {
       title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      description:
+        "Rushil Agarwal's machine learning, analytics, trading, and software projects.",
     },
   },
   contact: {
     title: "Contact",
-    description: "Let's connect and explore collaborations.",
+    description: "Let's connect for research, internships, and collaborations.",
     metadata: {
       title: "Contact",
-      description: "Contact Naman Barkiya.",
+      description: "Contact Rushil Agarwal.",
     },
   },
   contributions: {
-    title: "Contributions",
-    description: "Open-source contributions and community involvement.",
+    title: "Profiles",
+    description: "Coding profiles, repositories, and technical achievements.",
     metadata: {
-      title: "Contributions",
+      title: "Profiles",
       description:
-        "Naman Barkiya's open-source contributions and community involvement.",
+        "Rushil Agarwal's coding profiles, repositories, and technical achievements.",
     },
   },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Rushil Agarwal's resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Rushil Agarwal's resume.",
     },
   },
   blogs: {
-    title: "Blogs",
-    description:
-      "Thoughts on AI, software engineering, and building in public.",
+    title: "Writing",
+    description: "Notes on AI, software engineering, and data projects.",
     metadata: {
-      title: "Blogs",
+      title: "Writing",
       description:
-        "Naman Barkiya's blog — thoughts on AI, software engineering, and building in public.",
+        "Rushil Agarwal's writing on AI, software engineering, and data projects.",
     },
   },
   experience: {
     title: "Experience",
-    description: "Professional journey and career timeline.",
+    description: "Research, education, and leadership timeline.",
     metadata: {
       title: "Experience",
       description:
-        "Naman Barkiya's professional journey and experience timeline.",
+        "Rushil Agarwal's education, research experience, and leadership timeline.",
     },
   },
 };

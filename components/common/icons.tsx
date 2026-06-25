@@ -76,6 +76,7 @@ export const Icons = {
   gitBranch: IoIosGitBranch,
   close: X,
   spinner: Loader2,
+  sparkles: Sparkles,
   chevronLeft: ChevronLeft,
   chevronRight: ChevronRight,
   trash: Trash,

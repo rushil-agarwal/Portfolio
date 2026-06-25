@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import { Icons } from "@/components/common/icons";
 import { Button } from "@/components/ui/button";
@@ -31,12 +30,19 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <div className="flex gap-2 flex-wrap">
           <ChipContainer textArr={project.category} />
         </div>
-        <Link href={`/projects/${project.id}`} className="mt-auto">
-          <Button variant={"default"} className="mt-2 w-full sm:w-auto">
-            Read more
-            <Icons.chevronRight className="w-4 ml-1" />
-          </Button>
-        </Link>
+        {project.githubLink && (
+          <a
+            href={project.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-auto"
+          >
+            <Button variant={"default"} className="mt-2 w-full sm:w-auto">
+              <Icons.gitHub className="w-4 h-4 mr-2" />
+              View on GitHub
+            </Button>
+          </a>
+        )}
       </div>
       <div className="absolute bottom-4 right-4 p-3 rounded-full bg-background border border-border hidden md:block">
         {project.type === "Personal" ? (

@@ -34,3 +34,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# documentation (keep local only)
+CUSTOMIZATION_COMPLETE.md
+FINAL_CHANGES.md
+HOW_TO_CUSTOMIZE.md
+QUICK_EDIT_GUIDE.md
+QUICK_START.md
+DEBUG_SUMMARY.md

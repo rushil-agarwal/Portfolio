@@ -1,9 +1,7 @@
-import { Norican } from "next/font/google";
 import Link from "next/link";
 import * as React from "react";
 
 import { siteConfig } from "@/config/site";
-import { useLockBody } from "@/hooks/use-lock-body";
 import { cn } from "@/lib/utils";
 
 interface MobileNavProps {
@@ -11,15 +9,14 @@ interface MobileNavProps {
   children?: React.ReactNode;
 }
 
-const norican = Norican({
-  weight: ["400"],
-  style: ["normal"],
-  subsets: ["latin"],
-  display: "swap",
-});
-
 export function MobileNav({ items, children }: MobileNavProps) {
-  useLockBody();
+  // Lock body scroll when mobile nav is open
+  React.useEffect(() => {
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, []);
 
   return (
     <div
@@ -29,7 +26,7 @@ export function MobileNav({ items, children }: MobileNavProps) {
     >
       <div className="relative z-20 grid gap-6 rounded-md bg-popover p-4 text-popover-foreground shadow-md">
         <Link href="/" className="flex items-center space-x-2">
-          <span className={cn(norican.className, "text-2xl")}>
+          <span className="text-xl font-semibold">
             {siteConfig.authorName}
           </span>
         </Link>

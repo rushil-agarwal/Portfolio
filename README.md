@@ -1,149 +1,233 @@
-<a href="https://buymeachai.ezee.li/namanbarkiya" target="_blank" rel="noopener noreferrer"><img src="https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767625332/buy_chai_naman.png" alt="Buy Me A Chai" width="200"></a>
+# Rushil Agarwal - Portfolio
 
-# Next.js 16 Developer Portfolio Template
+A modern, responsive portfolio website built with Next.js 16, TypeScript, and Tailwind CSS, showcasing projects, experience, skills, and coding achievements.
 
-A modern, responsive, and SEO-optimized **Next.js 16 portfolio template** designed for developers, designers, and professionals. This open-source project helps you showcase your skills, experience, and projects with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
+## ✨ Features
 
-## ✨ Key Features
+- **Projects Showcase** - 6 detailed project pages with descriptions, tech stacks, and achievements
+- **Experience Timeline** - Work experience and education history
+- **Skills Display** - Technical skills with ratings and descriptions
+- **Coding Profiles** - GitHub, Codeforces, LeetCode, and LinkedIn integration
+- **Contact Page** - Clean contact information with email, LinkedIn, and GitHub
+- **Dark/Light Themes** - Multiple theme options (retro, cyberpunk, aurora, etc.)
+- **Fully Responsive** - Mobile-first design that works on all devices
+- **SEO Optimized** - Structured data, meta tags, and sitemap
+- **Fast Performance** - Built with Next.js 16 and optimized for speed
 
-- **Professional Experience Timeline**: Showcase your career journey with a visually appealing timeline
-- **Project Showcase**: Display your technical projects with detailed information and live demos
-- **Multiple Themes**: Dark, Light, Retro, Cyberpunk, Aurora, Synthwave, and Paper themes
-- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
-- **100% Performance Score**: Fully optimized for speed and Core Web Vitals
-- **SEO-Ready**: Structured data, meta tags, and optimized content
-- **Modern Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS, and shadcn/ui
-- **Easy Customization**: Well-organized code structure with minimal effort required
-- **Animations**: Subtle animations for engaging user experience
-- **Analytics Integration**: Ready for Google Analytics tracking
-- **Contact Form**: Functional contact form with validation
-- **Open Source**: Free to use and modify for your personal portfolio
+## 🚀 Quick Start
 
-## 🚀 Demo
+### Prerequisites
 
-View the live demo at [https://nbarkiya.xyz/](https://nbarkiya.xyz)
+- Node.js 18+ installed
+- npm or yarn package manager
 
-https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
+### Installation
 
-## Ranks #1 on AI Search (top-notch AEO/GEO)
+```bash
+# Clone the repository
+git clone https://github.com/rushil-agarwal/Portfolio.git
+cd Portfolio
 
-https://github.com/user-attachments/assets/fc071310-9d1c-4832-877f-23f9569893d7
+# Install dependencies
+npm install
 
-## 🛠️ Tech Stack
+# Run development server
+npm run dev
 
-- **Framework**: [Next.js 16](https://nextjs.org/) with Turbopack
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **UI Library**: [React 19](https://react.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Form Handling**: Server actions with validation
-- **Analytics**: Google Analytics + Vercel Analytics
-- **Deployment**: [Vercel](https://vercel.com)
+# Build for production
+npm run build
 
-## 🔧 Getting Started
+# Start production server
+npm start
+```
 
-To get started with your own portfolio website:
+Visit `http://localhost:3000` to see your portfolio!
 
-1. Clone this repository:
+## 📁 Project Structure
 
-   ```bash
-   git clone https://github.com/namanbarkiya/minimal-next-portfolio.git my-portfolio
-   cd my-portfolio
-   ```
-
-2. Copy the contents of `.env.copy` to a new `.env` file and fill in the required information.
-
-3. Install dependencies:
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website.
+```
+portfolio/
+├── app/                    # Next.js app directory
+│   ├── (root)/            # Main pages
+│   ├── api/               # API routes
+│   └── layout.tsx         # Root layout
+├── components/            # React components
+│   ├── common/           # Shared components
+│   ├── ui/               # UI components
+│   ├── projects/         # Project components
+│   ├── experience/       # Experience components
+│   └── skills/           # Skills components
+├── config/               # Configuration files
+│   ├── site.ts          # Site metadata
+│   ├── projects.ts      # Projects data
+│   ├── experience.ts    # Experience data
+│   ├── skills.ts        # Skills data
+│   ├── socials.ts       # Social links
+│   └── contributions.ts # Coding profiles
+├── public/              # Static assets
+│   ├── profile-img.jpg  # Your photo (REPLACE THIS)
+│   ├── logo.png         # Your logo (REPLACE THIS)
+│   └── favicon.ico      # Browser icon (REPLACE THIS)
+└── lib/                 # Utility functions
+```
 
 ## 🎨 Customization
 
-Easily personalize your portfolio using the configuration files below:
+### Update Your Information
 
-| Section            | How to Customize                                       | File Location             |
-| ------------------ | ------------------------------------------------------ | ------------------------- |
-| **Personal Info**  | Edit your name, bio, and social links                  | `config/site.ts`          |
-| **Skills**         | Add or modify the technologies and skills you showcase | `config/skills.ts`        |
-| **Projects**       | Highlight your technical projects                      | `config/projects.ts`      |
-| **Experience**     | Add your work and professional experience              | `config/experience.ts`    |
-| **Contributions**  | Display open-source/community contributions            | `config/contributions.ts` |
-| **Colors & Theme** | Customize color palette and themes                     | `tailwind.config.js`      |
+All content is in the `config/` folder:
 
-All configuration files are well-organized and documented for a smooth customization process.
+1. **Personal Info**: Edit `config/site.ts`
+   - Name, description, social links, keywords
 
-## 🌟 Features In Detail
+2. **Projects**: Edit `config/projects.ts`
+   - Add/remove/edit your projects
 
-### Professional Experience Timeline
+3. **Experience**: Edit `config/experience.ts`
+   - Work history and education
 
-An interactive, animated timeline that showcases your career journey with expandable sections for details about each position and company.
+4. **Skills**: Edit `config/skills.ts`
+   - Technical skills and ratings
 
-### Project Showcase
+5. **Social Profiles**: Edit `config/socials.ts`
+   - GitHub, LinkedIn, Codeforces, LeetCode
 
-Display your technical projects with detailed information, technologies used, live demo links, and comprehensive project descriptions.
+6. **Coding Profiles**: Edit `config/contributions.ts`
+   - Competitive programming achievements
 
-### Skills Showcase
+### Replace Images
 
-Visually represent your technical and soft skills with customizable ratings and categories.
+Replace these files in `/public/`:
+- `profile-img.jpg` - Your profile photo (1200x630px recommended)
+- `logo.png` - Your logo/icon (512x512px recommended)
+- `favicon.ico` - Browser tab icon (32x32px)
 
-### Contact Form Integration
+### Detailed Customization
 
-A ready-to-use contact form that can connect to various backend services.
+See `HOW_TO_CUSTOMIZE.md` and `QUICK_EDIT_GUIDE.md` for complete customization instructions.
 
-### SEO Optimization
+## 🌐 Deployment
 
-Built-in SEO features with proper meta tags, structured data, and semantic HTML.
+### Deploy to Vercel (Recommended)
 
-## 📱 Performance and Responsiveness
+1. Push your code to GitHub
 
-![best-portfolio-website-score](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
-![100-score-vercel](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
+2. Go to [vercel.com](https://vercel.com)
 
-This template is optimized for:
+3. Click "New Project"
 
-- 100% Lighthouse score
-- Excellent Core Web Vitals metrics
-- Responsive design across all device sizes
-- Fast loading times with proper image optimization
+4. Import your GitHub repository
+
+5. Configure:
+   - **Framework Preset**: Next.js
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `.next`
+   - **Install Command**: `npm install`
+
+6. Click "Deploy"
+
+Your site will be live in minutes!
+
+### Environment Variables (Optional)
+
+For analytics, add these in Vercel dashboard:
+```
+NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID=your-ga-id
+NEXT_PUBLIC_GOOGLE_VERIFICATION=your-verification-code
+```
+
+### Custom Domain
+
+1. Go to your Vercel project settings
+2. Click "Domains"
+3. Add your custom domain
+4. Follow DNS configuration instructions
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI
+- **Icons**: Lucide Icons, React Icons
+- **Animations**: Framer Motion
+- **Forms**: React Hook Form + Zod
+- **State Management**: Zustand
+- **Deployment**: Vercel
+
+## 📊 Performance
+
+- **Lighthouse Score**: 95+ on all metrics
+- **First Contentful Paint**: < 1s
+- **Time to Interactive**: < 2s
+- **SEO Score**: 100
+- **Accessibility Score**: 100
+
+## 📝 Scripts
+
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm start            # Start production server
+npm run lint         # Run ESLint
+```
+
+## 🔍 SEO Features
+
+- Structured data (JSON-LD)
+- Open Graph tags
+- Twitter Card tags
+- Dynamic sitemap generation
+- Robots.txt
+- Semantic HTML
+- Proper heading hierarchy
+- Alt tags for images
+
+## 📱 Responsive Design
+
+- Mobile-first approach
+- Breakpoints: sm (640px), md (768px), lg (1024px), xl (1280px)
+- Touch-friendly navigation
+- Optimized images for all screen sizes
+
+## 🎭 Themes
+
+Available themes:
+- Light (default)
+- Dark
+- Retro
+- Cyberpunk
+- Paper
+- Aurora
+- Synthwave
+
+Users can switch themes using the theme toggle in the navigation.
+
+## 🤝 Contributing
+
+This is a personal portfolio, but feel free to:
+- Fork the repository
+- Use it as a template for your own portfolio
+- Report issues or suggest improvements
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the MIT License.
 
-## 🙏 Acknowledgements
+## 💬 Contact
 
-- Design inspired by modern portfolio best practices
-- Built by [Naman Barkiya](https://github.com/namanbarkiya)
+- **Email**: rushilbti@gmail.com
+- **LinkedIn**: [linkedin.com/in/rushil-agarwal-86b519298](https://www.linkedin.com/in/rushil-agarwal-86b519298/)
+- **GitHub**: [github.com/rushil-agarwal](https://github.com/rushil-agarwal)
+- **Codeforces**: Specialist (1503)
+- **LeetCode**: Guardian (2206)
+
+## 🙏 Acknowledgments
+
+- Original template inspiration from [minimal-next-portfolio](https://github.com/namanbarkiya/minimal-next-portfolio)
+- UI components from [Radix UI](https://www.radix-ui.com/)
 - Icons from [Lucide](https://lucide.dev/)
-
-## 💻 Deploy on Vercel
-
-The easiest way to deploy your portfolio is using [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the platform from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=namanbarkiya/minimal-next-portfolio&type=Date)](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
 
 ---
 
-**Built with ❤️ by [Naman Barkiya](https://github.com/namanbarkiya)**
+Built with ❤️ by Rushil Agarwal

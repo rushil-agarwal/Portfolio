@@ -5,31 +5,43 @@ interface SocialInterface {
   username: string;
   icon: any;
   link: string;
+  showInFooter?: boolean; // Optional flag to control footer display
 }
 
 export const SocialLinks: SocialInterface[] = [
   {
     name: "Github",
-    username: "@namanbarkiya",
+    username: "@rushil-agarwal",
     icon: Icons.gitHub,
-    link: "https://github.com/namanbarkiya",
+    link: "https://github.com/rushil-agarwal",
+    showInFooter: true,
   },
   {
     name: "LinkedIn",
-    username: "Naman Barkiya",
+    username: "Rushil Agarwal",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/namanbarkiya",
+    link: "https://www.linkedin.com/in/rushil-agarwal-86b519298/",
+    showInFooter: true,
   },
   {
-    name: "Twitter",
-    username: "@namanbarkiya",
-    icon: Icons.twitter,
-    link: "https://twitter.com/namanbarkiya",
+    name: "Codeforces",
+    username: "Specialist (1503)",
+    icon: Icons.work,
+    link: "https://codeforces.com/profile/rushil-agarwal",
+    showInFooter: false,
+  },
+  {
+    name: "LeetCode",
+    username: "Guardian (2206)",
+    icon: Icons.work,
+    link: "https://leetcode.com/u/rushil-agarwal",
+    showInFooter: false,
   },
   {
     name: "Gmail",
-    username: "naman.barkiya02",
+    username: "rushilbti@gmail.com",
     icon: Icons.gmail,
-    link: "mailto:naman.barkiya02@gmail.com",
+    link: "mailto:rushilbti@gmail.com",
+    showInFooter: true,
   },
 ];

@@ -1,4 +1,6 @@
 export type ValidSkills =
+  | "C++"
+  | "C"
   | "Next.js"
   | "React"
   | "GraphQL"
@@ -60,7 +62,22 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "Pandas"
+  | "NumPy"
+  | "Matplotlib"
+  | "Scikit-learn"
+  | "Seaborn"
+  | "Streamlit"
+  | "NetworkX"
+  | "OpenCV"
+  | "Keras"
+  | "Jupyter"
+  | "Linux"
+  | "WSL"
+  | "Machine Learning"
+  | "Deep Learning"
+  | "Computer Vision";
 
 export type ValidCategory =
   | "Full Stack"
@@ -69,7 +86,11 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Machine Learning"
+  | "Data Science"
+  | "Quant"
+  | "Algorithms";
 
 export type ValidExpType = "Personal" | "Professional";
 
