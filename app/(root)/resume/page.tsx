@@ -1,10 +1,18 @@
 "use client";
-import { redirect } from "next/navigation";
 import { useEffect } from "react";
 
 export default function ResumePage() {
   useEffect(() => {
-    redirect(process.env.NEXT_PUBLIC_RESUME_LINK || "/");
+    // Redirect to Google Drive resume
+    window.location.href = "https://drive.google.com/file/d/1f_vR3mVhczLU1umsMogEdWuAz01P4Tgw/view?usp=sharing";
   }, []);
-  return <div>Redirecting to the resume...</div>;
+  
+  return (
+    <div className="flex items-center justify-center min-h-screen">
+      <div className="text-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+        <p className="text-muted-foreground">Redirecting to resume...</p>
+      </div>
+    </div>
+  );
 }

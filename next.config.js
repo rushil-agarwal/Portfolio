@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  devIndicators: {
+    appIsrStatus: false, // Hide the static indicator
+    buildActivity: false, // Hide the build activity indicator
+    buildActivityPosition: 'bottom-right',
+  },
   async headers() {
     return [
       {
