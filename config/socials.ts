@@ -5,7 +5,7 @@ interface SocialInterface {
   username: string;
   icon: any;
   link: string;
-  showInFooter?: boolean; // Optional flag to control footer display
+  showInFooter?: boolean; 
 }
 
 export const SocialLinks: SocialInterface[] = [

@@ -24,14 +24,14 @@ export const contributionsUnsorted: contributionsInterface[] = [
     repo: "LeetCode",
     repoOwner: "Guardian (2206)",
     contibutionDescription:
-      "Guardian rating of 2206, ranked 240th out of 35,000+ in LeetCode Biweekly Contest 174 by solving all problems in under an hour.",
+      "Guardian rating of 2206, ranked 240th out of 35,000+ in LeetCode Biweekly Contest 174.",
     link: "https://leetcode.com/u/Rushil_A_/",
   },
   {
     repo: "LinkedIn",
     repoOwner: "Rushil Agarwal",
     contibutionDescription:
-      "Professional profile highlighting research internship at IIT Delhi, academic achievements, and project work.",
+      "Professional profile highlighting academic achievements and project work.",
     link: "https://www.linkedin.com/in/rushil-agarwal-86b519298/",
   },
 ];

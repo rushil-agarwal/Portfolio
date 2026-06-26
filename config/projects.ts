@@ -27,8 +27,6 @@ export interface ProjectInterface {
   pagesInfoArr: PagesInfoInterface[];
 }
 
-const projectLogo = "/logo.png";
-
 export const Projects: ProjectInterface[] = [
   {
     id: "stratix-trading-engine",
@@ -36,18 +34,18 @@ export const Projects: ProjectInterface[] = [
     type: "Personal",
     category: ["Quant", "Backend", "Data Science"],
     shortDescription:
-      "A cryptocurrency trading engine with matching backtesting and paper-trading execution behavior on Binance Testnet.",
+      "A cryptocurrency trading engine with matching backtesting and paper-trading pipelines implemented on Binance API.",
     githubLink: "https://github.com/rushil-agarwal/Stratix-Trading-Engine",
     techStack: ["Python", "Pandas", "NumPy", "Git"],
     startDate: new Date("2025-11-01"),
     endDate: new Date("2026-01-01"),
-    companyLogoImg: projectLogo,
+    companyLogoImg: "/StratixTradingEngine.png",
     pagesInfoArr: [
       {
         title: "Execution Pipeline",
         description:
           "Backtesting and live-testing modes share the same order flow, trade tracking, and performance analysis pipeline.",
-        imgArr: [projectLogo],
+        imgArr: ["/StratixTradingEngine.png"],
       },
     ],
     descriptionDetails: {
@@ -83,13 +81,13 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2025-08-01"),
     endDate: new Date("2025-09-01"),
-    companyLogoImg: projectLogo,
+    companyLogoImg: "/VolatilityPrediction.png",
     pagesInfoArr: [
       {
         title: "Feature Engineering",
         description:
           "Built volatility, spread, VWAP, order-flow, return, and cross-asset correlation features for ETH forecasting.",
-        imgArr: [projectLogo],
+        imgArr: ["/VolatilityPrediction.png"],
       },
     ],
     descriptionDetails: {
@@ -125,13 +123,13 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2025-05-01"),
     endDate: new Date("2025-06-01"),
-    companyLogoImg: projectLogo,
+    companyLogoImg: "/TravelTrens.png",
     pagesInfoArr: [
       {
         title: "Analytics Dashboard",
         description:
           "Dashboard for revenue, satisfaction, amenity usage, occupancy forecasting, guest segmentation, and journey analysis.",
-        imgArr: [projectLogo],
+        imgArr: ["/TravelTrens.png"],
       },
     ],
     descriptionDetails: {
@@ -158,13 +156,13 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Java", "Git"],
     startDate: new Date("2025-06-01"),
     endDate: new Date("2025-07-01"),
-    companyLogoImg: projectLogo,
+    companyLogoImg: "/RA_CryptoCurrency.png",
     pagesInfoArr: [
       {
         title: "Blockchain Data Structures",
         description:
           "Prototype covering transaction creation, block mining, Merkle Tree operations, and validation safeguards.",
-        imgArr: [projectLogo],
+        imgArr: ["/RA_CryptoCurrency.png"],
       },
     ],
     descriptionDetails: {
@@ -191,13 +189,13 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Python", "PyTorch", "Jupyter"],
     startDate: new Date("2024-09-01"),
     endDate: new Date("2024-10-01"),
-    companyLogoImg: projectLogo,
+    companyLogoImg: "/SummarizeIt.png",
     pagesInfoArr: [
       {
         title: "LLM Summarization",
         description:
           "Conversation summarization pipeline focused on compression, coherence, and hallucination reduction.",
-        imgArr: [projectLogo],
+        imgArr: ["/SummarizeIt.png"],
       },
     ],
     descriptionDetails: {
@@ -223,13 +221,13 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Python", "TensorFlow", "Keras", "Jupyter"],
     startDate: new Date("2024-02-01"),
     endDate: new Date("2024-03-01"),
-    companyLogoImg: projectLogo,
+    companyLogoImg: "/SmartDateParser.png",
     pagesInfoArr: [
       {
         title: "Attention Model",
         description:
           "LSTM sequence model with attention maps for interpreting human-language date expressions.",
-        imgArr: [projectLogo],
+        imgArr: ["/SmartDateParser.png"],
       },
     ],
     descriptionDetails: {

@@ -64,15 +64,6 @@ export const pagesConfig: PagesConfig = {
       description: "Rushil Agarwal's resume.",
     },
   },
-  blogs: {
-    title: "Writing",
-    description: "Notes on AI, software engineering, and data projects.",
-    metadata: {
-      title: "Writing",
-      description:
-        "Rushil Agarwal's writing on AI, software engineering, and data projects.",
-    },
-  },
   experience: {
     title: "Experience",
     description: "Research, education, and leadership timeline.",

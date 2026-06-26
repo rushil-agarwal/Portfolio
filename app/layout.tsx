@@ -1,10 +1,8 @@
 import "./globals.css";
 
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { Inter as FontSans } from "next/font/google";
 import localFont from "next/font/local";
 
-import { Analytics } from "@/components/common/analytics";
 import { ThemeProvider } from "@/components/common/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
 import { siteConfig } from "@/config/site";
@@ -15,7 +13,6 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
-// Font files can be colocated inside of `pages`
 const fontHeading = localFont({
   src: "../assets/fonts/CalSans-SemiBold.woff2",
   variable: "--font-heading",
@@ -56,20 +53,7 @@ export const metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    title: siteConfig.name,
-    description: siteConfig.description,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 1200,
-        height: 630,
-        alt: siteConfig.name,
-      },
-    ],
-    creator: `@${siteConfig.username}`,
-  },
+
   icons: {
     icon: siteConfig.iconIco,
     shortcut: siteConfig.logoIcon,
@@ -89,14 +73,10 @@ export const metadata = {
       "max-snippet": -1,
     },
   },
-  verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION,
-  },
+
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
-  const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID;
-
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
@@ -122,11 +102,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
           ]}
         >
           {children}
-          <Analytics />
           <Toaster />
         </ThemeProvider>
       </body>
-      {GA_ID ? <GoogleAnalytics gaId={GA_ID} /> : null}
     </html>
   );
 }

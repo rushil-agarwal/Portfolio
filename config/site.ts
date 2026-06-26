@@ -9,8 +9,6 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/rushil-agarwal-86b519298/",
     github: "https://github.com/rushil-agarwal",
     repo: "https://github.com/rushil-agarwal/Portfolio",
-    twitter: "https://github.com/rushil-agarwal", // Using GitHub as fallback
-    templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio", // Original template repo
   },
   ogImage: "/profile-img.jpg",
   iconIco: "/favicon.ico",

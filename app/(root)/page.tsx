@@ -19,12 +19,11 @@ import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
-// Profile image - replace profile-img.jpg in /public folder with your photo
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
   description:
-    "Rushil Agarwal - Information Technology student at ABV-IIITM Gwalior building AI, ML, data science, quantitative finance, and software projects.",
+    "Rushil Agarwal - Final year student at IIIT Gwalior building AI, ML, data science, quantitative finance, and software projects.",
   alternates: {
     canonical: siteConfig.url,
   },
@@ -75,7 +74,7 @@ export default function IndexPage() {
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Information Technology student at ABV-IIITM Gwalior building
+              Final year student at IIIT Gwalior building
               machine learning, quantitative finance, analytics, and systems
               projects.
             </p>

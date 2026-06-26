@@ -20,12 +20,12 @@ export const experiences: ExperienceInterface[] = [
     position: "Research Intern",
     company: "IIT Delhi",
     location: "Remote",
-    startDate: new Date("2024-05-01"),
-    endDate: new Date("2024-07-01"),
+    startDate: new Date("2024-05-10"),
+    endDate: new Date("2024-07-06"),
     description: [
       "Worked on object detection using thermal vision with Prof. Brejesh Lall.",
-      "Studied the impact of synthetic images on pedestrian detection accuracy.",
-      "Fine-tuned FR-CNN and YOLOv8 with training data containing synthetic samples.",
+      "Studied the impact of using synthetic images for improving pedestrian detection accuracy.",
+      "Fine-tuned deep learning models like FR-CNN and YOLOv8 with training data containing synthetic samples.",
     ],
     achievements: [
       "Boosted model accuracy by 7-10% through feature engineering and fine-tuning.",
@@ -68,7 +68,7 @@ export const experiences: ExperienceInterface[] = [
       "Help plan and execute campus events with game design and on-ground operations.",
     ],
     achievements: [
-      "Led a 10-member design team for club outreach and content production.",
+      "Led a 10+ member design team for club outreach and content production.",
       "Organized a Squid Games themed campus event with 150+ participants.",
       "Managed game design and event execution responsibilities on the ground.",
     ],

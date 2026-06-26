@@ -107,7 +107,6 @@ export default function ContactPage() {
               {/* Additional Info */}
               <div className="pt-4 border-t border-border w-full">
                 <p className="text-sm text-muted-foreground">
-                  Response time: Usually within 24-48 hours
                 </p>
               </div>
             </div>
