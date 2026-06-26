@@ -29,7 +29,6 @@ export const siteConfig = {
     "Python",
     "C++",
     "IIITM Gwalior",
-    "IIT Delhi",
     "Portfolio",
   ],
 };

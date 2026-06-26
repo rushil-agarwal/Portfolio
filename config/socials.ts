@@ -27,14 +27,14 @@ export const SocialLinks: SocialInterface[] = [
     name: "Codeforces",
     username: "Specialist (1503)",
     icon: Icons.work,
-    link: "https://codeforces.com/profile/rushil-agarwal",
+    link: "https://codeforces.com/profile/rushil_a_",
     showInFooter: false,
   },
   {
     name: "LeetCode",
     username: "Guardian (2206)",
     icon: Icons.work,
-    link: "https://leetcode.com/u/rushil-agarwal",
+    link: "https://leetcode.com/u/Rushil_A_/",
     showInFooter: false,
   },
   {
