@@ -4,9 +4,9 @@ import { useEffect } from "react";
 export default function ResumePage() {
   useEffect(() => {
     // Redirect to Google Drive resume
-    window.location.href = "https://drive.google.com/file/d/1f_vR3mVhczLU1umsMogEdWuAz01P4Tgw/view?usp=sharing";
+    window.location.href = "https://drive.google.com/file/d/1Nw3uWh_dZCmr95YPhos-6chIv4HF5Etd/view?usp=sharing";
   }, []);
-  
+
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="text-center">
