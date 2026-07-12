@@ -5,7 +5,7 @@ interface SocialInterface {
   username: string;
   icon: any;
   link: string;
-  showInFooter?: boolean; 
+  showInFooter?: boolean;
 }
 
 export const SocialLinks: SocialInterface[] = [
@@ -25,14 +25,14 @@ export const SocialLinks: SocialInterface[] = [
   },
   {
     name: "Codeforces",
-    username: "Specialist (1503)",
+    username: "Specialist (1536)",
     icon: Icons.work,
     link: "https://codeforces.com/profile/rushil_a_",
     showInFooter: false,
   },
   {
     name: "LeetCode",
-    username: "Guardian (2206)",
+    username: "Guardian (2269)",
     icon: Icons.work,
     link: "https://leetcode.com/u/Rushil_A_/",
     showInFooter: false,

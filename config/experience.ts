@@ -49,8 +49,8 @@ export const experiences: ExperienceInterface[] = [
     ],
     achievements: [
       "Secured 99 percentile in JEE Main 2023 among 11 lakh candidates.",
-      "Reached Codeforces Specialist rating of 1503 and LeetCode Guardian rating of 2206.",
-      "Ranked 240th among 35,000+ contestants in LeetCode Biweekly Contest 174.",
+      "Reached Codeforces Specialist rating of 1536 and LeetCode Guardian rating of 2269.",
+      "Ranked 43rd among 39,000+ contestants in LeetCode Biweekly Contest 186.",
     ],
     skills: ["C++", "Python", "SQL", "Machine Learning", "Git"],
     logo: "/logo.png",

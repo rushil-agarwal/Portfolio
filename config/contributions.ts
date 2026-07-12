@@ -15,16 +15,16 @@ export const contributionsUnsorted: contributionsInterface[] = [
   },
   {
     repo: "Codeforces",
-    repoOwner: "Specialist (1503)",
+    repoOwner: "Specialist (1536)",
     contibutionDescription:
-      "Achieved Specialist rating of 1503 through consistent competitive programming practice and algorithmic problem-solving.",
+      "Achieved Specialist rating of 1536 through consistent competitive programming practice and algorithmic problem-solving.",
     link: "https://codeforces.com/profile/rushil_a_",
   },
   {
     repo: "LeetCode",
-    repoOwner: "Guardian (2206)",
+    repoOwner: "Guardian (2269)",
     contibutionDescription:
-      "Guardian rating of 2206, ranked 240th out of 35,000+ in LeetCode Biweekly Contest 174.",
+      "Guardian rating of 2269, ranked 43rd out of 39,000+ in LeetCode Biweekly Contest 186.",
     link: "https://leetcode.com/u/Rushil_A_/",
   },
   {
