@@ -29,6 +29,47 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
+    id: "fliplens-fraud-detection",
+    companyName: "FlipLens (1st Place Flipkart GRiD 8.0)",
+    type: "Personal",
+    category: ["Machine Learning", "Data Science", "Backend"],
+    shortDescription:
+      "Intelligent Returns Triage and Fraud Detection System using a dual-layered ML and LLM agent framework.",
+    githubLink: "https://github.com/tushitasts/Catalyst-Grid-8.0",
+    techStack: [
+      "Python",
+      "PostgreSQL",
+      "Machine Learning",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Streamlit",
+    ],
+    startDate: new Date("2026-06-01"),
+    endDate: new Date("2026-08-01"),
+    companyLogoImg: "/FlipLens.png",
+    pagesInfoArr: [
+      {
+        title: "GenAI Triage Agent & ML Pipeline",
+        description:
+          "Dual-layered architecture combining LightGBM for quantitative risk assessment and LangGraph + Gemini for qualitative policy reasoning.",
+        imgArr: ["/FlipLens.png"],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "FlipLens is an intelligent Returns Triage and Fraud Detection System designed to streamline e-commerce returns, minimize revenue leakage, and optimize the customer experience.",
+        "This project secured 1st Place in Flipkart GRiD 8.0 with a dual-layered architecture that separates fast quantitative risk assessment from qualitative policy reasoning using LLMs.",
+      ],
+      bullets: [
+        "Developed a Machine Learning pipeline (LightGBM) to calculate instantaneous Fraud Probability Scores by analyzing behavioral metadata.",
+        "Built a GenAI Triage Agent using LangGraph and Google Gemini to orchestrate decisions, evaluate borderline cases, and provide explainable AI reasoning.",
+        "Implemented Retrieval-Augmented Generation (RAG) using FAISS to dynamically fetch exact return policies based on item categories.",
+        "Created an interactive investigator dashboard using Streamlit to review batch escalation logs and test adversarial queries.",
+      ],
+    },
+  },
+  {
     id: "stratix-trading-engine",
     companyName: "Deterministic Trading Engine",
     type: "Personal",
