@@ -30,11 +30,11 @@ export interface ProjectInterface {
 export const Projects: ProjectInterface[] = [
   {
     id: "fliplens-fraud-detection",
-    companyName: "FlipLens (1st Place Flipkart GRiD 8.0)",
+    companyName: "FlipLens",
     type: "Personal",
     category: ["Machine Learning", "Data Science", "Backend"],
     shortDescription:
-      "Intelligent Returns Triage and Fraud Detection System using a dual-layered ML and LLM agent framework.",
+      "1st Place at Flipkart GRiD 8.0: Intelligent Returns Triage and Fraud Detection System using a dual-layered ML and LLM agent framework.",
     githubLink: "https://github.com/tushitasts/Catalyst-Grid-8.0",
     techStack: [
       "Python",
