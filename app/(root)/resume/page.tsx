@@ -4,7 +4,7 @@ import { useEffect } from "react";
 export default function ResumePage() {
   useEffect(() => {
     // Redirect to Google Drive resume
-    window.location.href = "https://drive.google.com/file/d/1NbQyjjovRYnD2gXtrgiKyN2QQkCnbLic/view?usp=sharing";
+    window.location.href = "https://drive.google.com/file/d/1RTlC0w-CaY5jTALQaGBfO0uzwpt0lu28/view?usp=sharing";
   }, []);
 
   return (
